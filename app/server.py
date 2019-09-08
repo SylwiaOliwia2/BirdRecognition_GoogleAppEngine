@@ -10,9 +10,10 @@ from fastai.vision import *
 
 #model_file_url = 'https://drive.google.com/uc?export=download&id=11Vgj9UJJXTULLfKyPuYVejfvvBJ0ZhKZ'
 #model_file_name = 'model'
-model_file_url = 'https://drive.google.com/uc?export=download&id=11Vgj9UJJXTULLfKyPuYVejfvvBJ0ZhKZ'
-model_file_name = 'model'
 classes = ['Robin', 'Bullfinch', 'American Robin']
+model_file_url = 'https://dl.dropboxusercontent.com/s/wx1mhaaag0rmh1f/stage-2.pth?raw=1'
+model_file_name = 'model'
+#classes = ['black', 'grizzly', 'teddys']
 
 path = Path(__file__).parent
 
